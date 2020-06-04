@@ -13,6 +13,7 @@ USER root
 # Install extra requirements for actions code, if necessary (uncomment next line)
 RUN pip install --no-cache-dir google
 RUN pip install --no-cache-dir newspaper3k
+RUN pip install --no-cache-dir requests
 #RUN pip install --no-cache-dir appdirs
 #RUN pip install --no-cache-dir tensorflow-gpu==2.1.0
 #RUN pip install --no-cache-dir tensorflow==2.1.0
@@ -20,6 +21,7 @@ RUN pip install --no-cache-dir newspaper3k
 #RUN pip install --no-cache-dir ipywidgets
 #RUN pip install --no-cache-dir transformers
 #RUN pip install --no-cache-dir -r /app/actions/requirements-actions.txt
+
 #RUN apt-get update && apt-get install -y git
 #RUN git clone https://git.dar.kz/DRysbek/qa.git
 #CMD [ "python3", "qa/setup_qa.py" ]
