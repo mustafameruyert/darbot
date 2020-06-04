@@ -3,12 +3,12 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
-#from actions.setup_qa import (
-#    question_answering_pipeline,
-#    search_article,
-#    extract_text,
-#    final_text,
-#)
+from setup_qa import (
+    question_answering_pipeline,
+    search_article,
+    extract_text,
+    final_text,
+)
 
 
 

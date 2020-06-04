@@ -8,6 +8,7 @@
   - utter_user_good
   - utter_bot_asks_where_are_you_from
 * bot_asks_where_are_you_from
+  - slot{"birthplace":"Алматы"}
   - action_birthplace
  
 ## story 0 unhappy path 
@@ -20,6 +21,7 @@
   - utter_user_sad
   - utter_bot_asks_where_are_you_from
 * bot_asks_where_are_you_from
+  - slot{"birthplace":"Алматы"}
   - action_birthplace
  
 ## story 1
