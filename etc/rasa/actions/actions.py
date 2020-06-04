@@ -30,7 +30,8 @@ class ActionGetUserBirthPlace(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         birthplace=tracker.get_slot("birthplace")
-        dispatcher.utter_message(birthplathe+" очень красивый город!Я был там виртуально")
+        dispatcher.utter_message(birthplace+" очень красивый город!Я был там виртуально")
+        
 class ActionTellTale(Action):
 
     def name(self) -> Text:
